@@ -38,14 +38,12 @@ public class Voyage {
 	public void setDestination(Destination destination) {
 		this.destination = destination;
 	}
-
 	@Override
 	public String toString() {
-		return "Voyage" +
-				+numeroVoyage
-				+prix
-				+formule
-				
+		return "Voyage [numeroVoyage=" + numeroVoyage + ", statut=" + statut + ", prix=" + prix + ", formule=" + formule
+				+ ", mesReservations=" + mesReservations + ", destination=" + destination + "]";
 	}
+
+	
 	
 }
